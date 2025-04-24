@@ -1,5 +1,5 @@
 {
-  "name": "Bluesky Client Manager",
+  "name": "@skyloom/blueskyclientmanager",
   "version": "1.0.0",
   "description": "Combines multiple BlueSky-related clients for different contexts (authenticated, unauthenticated, gateway, direct PDS access, etc.)",
   "main": "index.js",
