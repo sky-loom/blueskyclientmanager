@@ -13,7 +13,7 @@ A TypeScript utility that combines multiple BlueSky/AT Protocol clients for diff
 ## Installation
 
 ```bash
-npm install @sky-loom/blueskyclientmanager
+npm install @skyloom/blueskyclientmanager
 ```
 
 ## Usage Examples
@@ -21,7 +21,7 @@ npm install @sky-loom/blueskyclientmanager
 ### Basic Setup
 
 ```typescript
-import { BskyClientManager } from "@sky-loom/blueskyclientmanager";
+import { BskyClientManager } from "@skyloom/blueskyclientmanager";
 
 // Initialize with labelers (content warning/moderation labelers you want to receive labels from)
 // Format is the DID of labelers

@@ -1,8 +1,8 @@
 {
   "name": "@skyloom/blueskyclientmanager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combines multiple BlueSky-related clients for different contexts (authenticated, unauthenticated, gateway, direct PDS access, etc.)",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc --build tsconfig.json"
   },
@@ -18,7 +18,7 @@
   "author": "Skyloom",
   "license": "MIT",
   "type": "module",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
