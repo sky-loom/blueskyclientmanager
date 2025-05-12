@@ -12,6 +12,7 @@ export class BskyClientManager {
     this.pdsgateway = new Agent("https://bsky.social");
     //unauthenticated public API, when we want to be nice and hit the CDN
     this.publicagent = new Agent("https://public.api.bsky.app");
+    this.publicagent.configureLabelers(labelers);
     //unauthenticated appview, useful for a few things like getting labels unauthenticated
     this.appview = new Agent("https://api.bsky.app");
     this.appview.configureLabelers(labelers);
